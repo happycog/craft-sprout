@@ -108,9 +108,9 @@ class m211101_000008_migrate_reports_tables extends Migration
 
             $rows = (new Query())
                 ->select($oldTableCols)
-                ->from([self::OLD_REPORTS_TABLE])
+                ->from([self::OLD_REPORTS_TABLE.' sproutreports_reports'])
                 ->innerJoin(
-                    Table::ELEMENTS_SITES,
+                    Table::ELEMENTS_SITES.' elements_sites',
                     '[[sproutreports_reports.id]] = [[elements_sites.elementId]]'
                 )
                 ->all();
