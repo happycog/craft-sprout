@@ -1,5 +1,30 @@
 # Changelog
 
+## 4.0.6 - 2023-04-21
+
+### Fixed
+
+- Fixed edit button permissions ([#8][#8datastudio])
+- Fixed Twig Template Query example template paths
+
+[#8datastudio]: https://github.com/barrelstrength/sprout-data-studio/issues/8
+
+## 4.0.5 - 2023-04-01
+
+### Fixed
+
+- Improved multi-site support ([#3][#2datastudio])
+
+[#3datastudio]: https://github.com/barrelstrength/sprout-data-studio/issues/3
+
+## 4.0.4 - 2023-03-20
+
+### Fixed
+
+- Fixed datetime syntax in migration ([#2][#2datastudio])
+
+[#2datastudio]: https://github.com/barrelstrength/craft-sprout-data-studio/issues/2
+
 ## 4.0.3 - 2023-02-20
 
 ### Fixed
